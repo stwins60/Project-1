@@ -134,8 +134,6 @@ legend{
     text-align: center;
     padding: 20%;
     display: block;
-    border: 3px solid red;
-    background-color: gray;
   }
   input[type = checkbox]{
     padding: 20%;
