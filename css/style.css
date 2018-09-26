@@ -1,0 +1,143 @@
+/*my style*/
+body{
+  padding-top: 2%;
+  padding-right: 9em;
+  padding-bottom: 6em;
+  padding-left: 9em;
+  background-color: gray;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+label{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-style: oblique;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+fieldset{
+  background-color: #ff9933;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 2em;
+  padding-right: 9em;
+  padding-bottom: 5em;
+  padding-left: 9em;
+  width: 750px;
+  height: auto;
+}
+div{
+  padding-bottom: 25px;
+  font-size: 30px;
+  text-align: left;
+}
+input[type=email],
+input[type=text],
+input[type=date],
+input[type=tel],
+input[type=password] {
+  width: 55%;
+  height: 55%;
+  font-size: 80%;
+  text-align: center;
+}
+input[type = checkbox]{
+  padding-bottom: 20%;
+}
+footer{
+  text-align: center;
+}
+legend{
+  text-align: center;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 150%;
+}
+.mySlides{
+  display: none;
+  position: inherit;
+}
+#submit{;
+  padding-top: 10%;
+  text-align: center;
+  height: auto;
+  width: 50%;
+  margin-right: 50%;
+  margin-left: 20%;
+}
+#click:hover {
+  background-color: #405172;
+}
+#click{
+  border-radius: 50%;
+  font-style: oblique;
+}
+/* Mobile first css */
+@media screen and (max-width: 1024px) {
+  body{
+    padding-left: 6%;
+    padding-right: 94%;
+    background-color: #3e717f;
+    }
+  div{
+    font-size: 30px;
+    text-align: left;
+  }
+
+  fieldset {
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  form > label,
+  legend {
+    width: 100%;
+    float: none;
+  }
+
+  label {
+    width: 70%;
+    text-align: left;
+    /* text-align: center; */
+  }
+
+  form > fieldset {
+    width: 100%;
+    float: none;
+  }
+
+  input[type=email],
+  input[type=text],
+  input[type=date],
+  input[type=password],
+  input[type=tel] {
+    width: 180px;
+    padding-left: 20%;
+    text-align: center;
+  }
+  legend{
+    color: #394c51;
+    text-align: center;
+    padding: 20%;
+    display: block;
+    border: 3px solid red;
+    background-color: gray;
+  }
+  input[type = checkbox]{
+    padding: 20%;
+  }
+}
