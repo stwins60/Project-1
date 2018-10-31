@@ -23,9 +23,11 @@ h1{
   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 20px;
   font-weight: bold;
+  padding-bottom: 20%;
 }
 img {
   display: block;
+  padding-bottom: 10%;
 }
 fieldset{
   background-color: #ff9933;
@@ -68,6 +70,9 @@ h1{
   font-style: oblique;
   font-weight: bold;
   font-size: 150%;
+}
+p{
+  vertical-align: middle;
 }
 .mySlides{
   display: none;
