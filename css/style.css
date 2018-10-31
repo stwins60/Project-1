@@ -54,10 +54,11 @@ input[type=password] {
   font-size: 80%;
   text-align: center;
   margin: 8px, 0;
+  padding: 12px 20px;
 }
 input[type = checkbox]{
   padding-bottom: 20%;
-  margin: 8px, 0;
+
 }
 footer{
   text-align: center;
