@@ -19,15 +19,13 @@ label{
 }
 h1{
   text-align: center;
-  font-family: scursive;
-  font-style: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-style: cursive;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 20px;
   font-weight: bold;
 }
 img {
   display: block;
-  margin-left: 120%;
-  width: 40%;
 }
 fieldset{
   background-color: #ff9933;
