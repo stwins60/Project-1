@@ -56,12 +56,14 @@ input[type=password] {
   height: 55%;
   font-size: 80%;
   text-align: center;
+  vertical-align: middle;
 }
 input[type = checkbox]{
   padding-bottom: 20%;
 }
 footer{
   text-align: center;
+  vertical-align: middle;
 }
 h1{
   text-align: center;
