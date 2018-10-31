@@ -19,8 +19,10 @@ label{
 }
 h1{
   text-align: center;
-  font-family: cursive;
-  font-style: oblique;
+  font-family: scursive;
+  font-style: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 20px;
+  font-weight: bold;
 }
 img {
   display: block;
@@ -61,9 +63,9 @@ input[type = checkbox]{
 footer{
   text-align: center;
 }
-legend{
+h1{
   text-align: center;
-  font-family: cursive;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-style: oblique;
   font-weight: bold;
   font-size: 150%;
@@ -129,14 +131,7 @@ legend{
     padding-left: 20%;
     text-align: center;
   }
-  legend{
-    color: #394c51;
-    text-align: center;
-    padding: 20%;
-    display: block;
-    border: 3px solid red;
-    background-color: gray;
-  }
+
   input[type = checkbox]{
     padding: 20%;
   }
