@@ -23,6 +23,7 @@ h1{
   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 20px;
   font-weight: bold;
+  padding-bottom: 2px;
 }
 img {
   display: block;
@@ -53,7 +54,7 @@ input[type=password] {
   height: 55%;
   font-size: 80%;
   text-align: center;
-  margin: 8px, 0;
+  vertical-align: bottom;
   padding: 12px 20px;
 }
 input[type = checkbox]{
