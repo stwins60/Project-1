@@ -14,7 +14,7 @@ body{
 label{
   text-align: center;
   padding-top: 40px;
-  font-size: 40px;
+  font-size: 50px;
 
 }
 h1{
@@ -23,7 +23,7 @@ h1{
   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 20px;
   font-weight: bold;
-  padding-bottom: 2px;
+  padding-bottom: 20px;
 }
 img {
   display: block;
@@ -45,6 +45,7 @@ div{
   font-size: 30px;
   text-align: left;
 }
+
 input[type=email],
 input[type=text],
 input[type=date],
@@ -54,8 +55,8 @@ input[type=password] {
   height: 55%;
   font-size: 80%;
   text-align: center;
-  vertical-align: bottom;
-  padding: 12px 20px;
+  padding: 12px 10px;
+  margin-left: 40%;
 }
 input[type = checkbox]{
   padding-bottom: 20%;
@@ -97,7 +98,7 @@ h1{
     padding-left: 6%;
     padding-right: 94%;
     background-color: #3e717f;
-    }
+  }
   div{
     font-size: 30px;
     text-align: left;
@@ -138,3 +139,24 @@ h1{
     padding: 20%;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+  /* For mobile phones: */
+  form{
+    padding: 5%;
+    margin: 2% 5% 2% 5%;
+  }
+  fieldset{
+    width: 100%;
+  }
+  input[type=text]{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 5vw;
+    margin-top: 5%;
+  }
+  body{
+    background: #3e717f;
+  }
