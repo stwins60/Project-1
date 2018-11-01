@@ -50,6 +50,19 @@ table {
 
 /* Forms
 ========================================================================== */
+/*
+  Using 19px/1.333 modular scale
+  http://www.modularscale.com/?19&px&1.333&web&text
+*/
+html {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  background-color: #3e717f;
+  color: #715119;
+}
+body {
+  font-size: 1.1875em;         /* ~ 19px base font size */
+  line-height: 1.2631578947em; /* ~ 24px base line height */
+}
 
 /**
 * 1. Change the font styles in all browsers.
